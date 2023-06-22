@@ -11,7 +11,6 @@ namespace ADE.Tutorial
 
         private static readonly List<TimeZoneInfo> timeZones = new List<TimeZoneInfo>
         {
-            TimeZoneInfo.FindSystemTimeZoneById("Japan Standard Time"),
             TimeZoneInfo.FindSystemTimeZoneById("Eastern Standard Time"),
             TimeZoneInfo.FindSystemTimeZoneById("Central Standard Time"),
             TimeZoneInfo.FindSystemTimeZoneById("Mountain Standard Time"),
